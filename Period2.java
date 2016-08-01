@@ -38,16 +38,4 @@ public class Period2 {
 
 
 
-/* X - 1. Create a Scanner (done)
-* X - 2. Ask for user for input and get two dates as inputs as Strings (done)
-* X - 3. Set up DateTimeFormatter with the format you're expecting (usually MM/dd/yyyy)'
-* X - 4. Create two LocalDates using LocalDate.parse with an input and the DateTimeFormatter.abstract
-* 5. Use the Period.between() method to create a new Period instance with the difference between the dates
-* 		Period p = Period.between(date1, date2)
-*	p is an instance--a specific Period with days, months, years. 
-* 	You're asking the Period class (static method) to build you one. 
-*	so it's Period.between()
-*	but then it will be the instance for the rest--
-*	p.getMonth(), p.getDays(), etc. 
-* 6. Use the instance's methods to get years, months, days, and output them.  
-*/ 
+
